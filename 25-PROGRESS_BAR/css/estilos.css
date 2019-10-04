@@ -1,0 +1,21 @@
+div.progress-bar, .uno{
+    width: 10%;
+}
+
+div.dos{
+    min-width: 10%;
+    width: 0%;
+}
+
+div.tres, div.cuatro, div.cinco, div.seis{
+    min-width: 10%;
+    width: 100%;
+}
+
+div.progress-bar-purple{
+    background: purple;
+}
+
+div.siete{
+    width: 20%;
+}
