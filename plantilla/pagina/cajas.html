@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Administración</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- bootstrap 4-->
+	<link rel="stylesheet" type="text/css" href="../plugins/bootstrap/css/bootstrap.min.css">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="../plugins/fontawesome-free-5.8.1-web/css/all.min.css">
+	<!-- Estilo personalizado -->
+	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
+	<!-- bootstrap-toggle-master -->
+	<link href="../plugins/bootstrap-toggle-master/css/bootstrap-toggle.css" rel="stylesheet">
+	<link href="../plugins/bootstrap-toggle-master/stylesheet.css" rel="stylesheet">
+	<!-- alertify -->
+	<link href="../plugins/alertifyjs/css/alertify.css" rel="stylesheet">	
+	<link href="../plugins/alertifyjs/css/themes/default.css" rel="stylesheet">	
+	<!-- animate -->
+	<link rel="stylesheet" href="../plugins/animate/animate.css">
+</head>
+<body>
+	<header>
+		<!-- encabezado -->
+		<section class="contenedor iconos fondo">
+
+			<ul class="nav-pills pull-right menu-bar">
+				<li class="list-unstyled">
+					<a href="#" class="color  borde animated bounceIn" id="menuV">
+						<i class="fas fa-bars"></i>
+					</a>
+				</li>
+				<li class="list-unstyled espIco">
+					<a href="#" class="color borde animated bounceIn" data-toggle="modal" data-target="#miModal">
+						<i class="far fa-user-circle"></i>
+					</a>
+				</li>
+
+				<h2 class="fondo usuario">Adolfo Viera Meléndez</h2>
+
+			</ul>
+
+			<h2 class="fondo  empresa">Adolfo VM / Instituto Tecnológico de Linares</h2>
+				
+		</section>
+		<!-- encabezado -->
+	</header><!-- /header -->	
+	<div class="container-fluid tamContenido" >
+		<div class="row">
+			<div class="col-xs-0 col-sm-3 col-md-2 col-lg-2 vertical">
+			<!-- sidebar -->
+				<div class="sidebar fondo borde sombra animated bounceIn" id="mnuLateral">
+					<h2 class="fondo mLateral">Menú</h2>
+					<ul class="menuv">
+						<li class="list-unstyled icoMedia">
+							<a href="../pagina/cajas.html" class="activo fasLink">
+								<i class="glyphicon glyphicon-btc"></i> <label class="lblIco"> Bootstrap <span class="badge badgeBootstrap">34</span></label>
+							</a>
+						</li>
+						<li class="list-unstyled icoMedia">
+							<a href="../pagina/recursos.html" class="fasLink">
+								<i class="fas fa-chart-pie"></i> <label class="lblIco"> Recursos <span class="badge badgeBootstrap">7</span></label>
+							</a>
+						</li>
+						<!-- <li class="list-unstyled icoMedia">
+							<a href="../pagina/formularios.html" class="fasLink">
+								<i class="fas fa-object-group fa-lg fasIco"></i> <label class="lblIco">	Formularios
+								</label>
+							</a>
+						</li>
+						<li class="list-unstyled icoMedia">
+							<a href="../pagina/tablas.html" class="fasLink">
+								<i class="fas fa-table fa-lg fasIco"></i> <label class="lblIco"> Tablas
+								</label>
+							</a>
+						</li >
+						<li class="list-unstyled icoMedia">
+							<a href="#" class="fasLink" onclick="salir();">
+								<i class="fas fa-sign-out-alt fa-lg fasIco"></i> <label class="lblIco">	Salir
+								</label>
+							</a>
+						</li > -->
+					</ul>
+				</div>
+			<!-- sidebar -->
+			</div>
+			<div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 cont">
+			   <div class="titulo borde sombra">
+			        <h3 class="animated zoomIn tPrincipal">Enlaces a páginas <span class="badge badgeBootstrap">16</span></h3>
+			   </div>
+			   
+			   
+
+			   <div class="contenido borde sombra" style="padding-right:18px;">
+				   <div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-italic"></i>
+								<p><a href="../../1-INTRODUCCION/index.html" target="_blank" class="cenlace">1- Introducción</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-object-align-top"></i>
+								<p><a href="../../2-LA_GRID/index.html" target="_blank" class="cenlace">2- La Grid</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-text-size"></i>
+								<p><a href="../../3-TIPOGAFIA_TEXTOS/index.html" target="_blank" class="cenlace">3- Tipografía Textos</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-th"></i>
+								<p><a href="../../4-TABLAS/index.html" target="_blank" class="cenlace">4- Tablas</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-duplicate"></i>
+								<p><a href="../../5-FORMULARIOS/index.html" target="_blank" class="cenlace">5- Formularios</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-minus"></i>
+								<p><a href="../../6-BOTONES/index.html" target="_blank" class="cenlace">6- Botones</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-picture"></i>
+								<p><a href="../../7-IMAGENES/index.html" target="_blank" class="cenlace">7- Imágenes</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-text-background"></i>
+								<p><a href="../../8-CLASES_AUXILIARES/index.html" target="_blank" class="cenlace">8- Clases Auxiliares</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-fullscreen"></i>
+								<p><a href="../../9-HERRAMIENTAS_RESPONSIVAS/index.html" target="_blank" class="cenlace">9- Herramientas Responsivas</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-gift"></i>
+								<p><a href="../../10-ICONOS/index.html" target="_blank" class="cenlace">10- Íconos</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-chevron-down"></i>
+								<p><a href="../../11-DROPDOWN/index.html" target="_blank" class="cenlace">11- Dropdown</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-th-large"></i>
+								<p><a href="../../12-GRUPO_BOTONES/index.html" target="_blank" class="cenlace">12- Grupo Botones</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-expand"></i>
+								<p><a href="../../13-DROPDOWN_BUTTONS/index.html" target="_blank" class="cenlace">13- DropdownButtons</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-align-justify"></i>
+								<p><a href="../../14-INPUT_GRUPOS/index.html" target="_blank" class="cenlace">14- Input Grupos</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-globe"></i>
+								<p><a href="../../15-NAVEGACIONES/index.html" target="_blank" class="cenlace">15- Navegaciones</a></p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="caja animated slideInUp">
+								<i class="glyphicon glyphicon-th-list"></i>
+								<p><a href="../../16-NAVBARS/index.html" target="_blank" class="cenlace">16- NavBars</a></p>
+							</div>
+						</div>
+						<div class="col-lg-12 animated slideInUp barraPags">
+							<nav class="">
+								<ul class="pagination pagination-lg">
+									<li class="disabled"><a href="#">&laquo;</a></li>
+									<li class="active"><a href="#">1</a></li>
+									<li><a href="cajas2.html">2</a></li>
+									<li><a href="cajas2.html">&raquo;</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+			   </div>	
+			</div>			
+		</div>
+	</div>
+	<footer class="fondo">
+		<div class="copyright">
+				@ 2019 Viera Meléndez | <a href="" class="linkf">ISC/ProgWeb2019</a>
+			</div>
+			<div class="information">
+				Politicas y privacidad | <a href="" class="linkf">ISC/ProgWeb2019</a>
+		</div>	
+	</footer>
+
+	<div class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<h3 class="modal-title  tPrincipal">Información de usuario</h3>
+				</div>
+				<div class="modal-body animated flipInX">
+						<img src="../imagenes/Gyro.jpg" class="img-thumbnail mImg">
+						<h4 class="tPrincipal colorLetra centrar">
+							Perfil
+						</h4>
+
+						<h4 class="tPrincipal colorLetra centrar">
+							Ing. Adolfo Viera Meléndez
+						</h4>
+
+						<h4 class="tPrincipal colorLetra centrar">
+							ISIC / ProgWeb2019
+						</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- SCRIPT JAVASCRIPT -->
+
+	<!-- jquery -->
+	<script src="../plugins/jQuery/jQuery-2.1.4.min.js"></script>
+	<!-- alertify -->
+	<script src="../plugins/alertifyjs/alertify.js"></script>
+	<!-- bootstrap -->
+	<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- preloaders -->
+	<script src="../plugins/Preloaders/jquery.preloaders.js"></script>
+	<!-- bootstrap-toggle-master -->
+	<script src="../plugins/bootstrap-toggle-master/doc/script.js"></script>
+	<script src="../plugins/bootstrap-toggle-master/js/bootstrap-toggle.js"></script>
+	<!-- Scripts personalizados -->
+	<script src="../js/menu.js"></script>
+	<script src="../js/precarga.js"></script>
+	<script src="../js/salir.js"></script>
+
+</body>
+</html>
